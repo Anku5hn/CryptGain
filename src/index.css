@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media screen and (max-width: 1023px){
+    .hide-sm-scr{
+        display:none;
+    }
+}
+.enter-from-right {
+    animation: enter-from-right 0.5s ease-in-out;
+  }
+.enter-from-left {
+    animation: enter-from-left 0.5s ease-in-out;
+}
+@keyframes enter-from-right {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes enter-from-left {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .animate-up {
+    animation: animateUp 1s ease-in-out;
+  }
+  @keyframes animateUp {
+    from {
+      transform: translateY(100px); 
+    }
+    to {
+      transform: translateY(0); 
+    }
+  }
+
+  @keyframes animateDown{
+    from {
+      transform: translateY(-100px); 
+    }
+    to {
+      transform: translateY(0); 
+    }
+  }
+  .animate-down{
+    animation: animateDown 1s ease-in-out;
+  }
+  .hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
