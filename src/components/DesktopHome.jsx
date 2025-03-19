@@ -74,7 +74,7 @@ const DesktopHome = () =>{
                     {
                         //second
                     }
-                <img className={`w-1/2 h-auto border-2 border-gray-400 rounded-md ${secondImg ? 'enter-from-left' : ` `}`}src="https://www.unfluke.in/static/media/g10.f644e042.png" alt="computer-image" ref={secondImgRef}/>
+                <img className={`w-1/2 h-auto border-2 border-gray-400 rounded-md ${secondImg ? 'enter-from-left' : ` `}`}src="https://img.freepik.com/free-vector/modern-desktop-computer-concept-illustration_114360-16235.jpg" alt="computer-image" ref={secondImgRef}/>
                 </div>
                 <div className='w-full'>
                 <h1 className={`text-3xl text-left font-semibold ${secondText ? 'enter-from-right' : ''}`} ref={secondTextRef}>Invest Smartly!</h1>
