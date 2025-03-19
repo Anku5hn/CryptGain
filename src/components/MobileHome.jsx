@@ -65,7 +65,7 @@ const MobileHome = () =>{
                 <button className="text-white bg-blue-500 py-1 px-1 rounded">Sign Up!</button>
                 <h2 className="text-2xl font-semibold text-center">Invest Smartly!</h2>
                 <p className="text-center">Maximise your gains with our crypto experts.</p>
-                <img className="w-5/6 h-auto border-2 border-gray-400 rounded-md enter-from-left" src="https://www.unfluke.in/static/media/g10.f644e042.png" alt="computer-image"/>
+                <img className="w-5/6 h-auto border-2 border-gray-400 rounded-md enter-from-left" src="https://img.freepik.com/free-vector/modern-desktop-computer-concept-illustration_114360-16235.jpg" alt="computer-image"/>
                 <h2 className={`text-2xl font-semibold text-center ${textAni ? 'animate-up' : ' '}`} ref={textRef}>Get the best returns!</h2>
                 <p className={`text-center ${paraAni ? 'animate-up': ' '}`} ref={secondText}>Make the best possible returns on your crypto investments.</p>
                 <div className="flex w-5/4 h-auto flex-row justify-center">
